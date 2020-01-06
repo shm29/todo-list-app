@@ -1,0 +1,41 @@
+.todo__form-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  width: 165px;
+}
+
+.todo__form-button{
+  margin-left: 5px;
+  width: 99px;
+  height: 44px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  color: #fff;
+  text-transform: uppercase;
+}
+.todo__form-button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.todo__list {
+  padding: 0;
+  list-style: none;
+}
+
+.todo__list-item {
+  color: #333;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+
+  transition: background-color .2s ease-out;
+}
+.todo__list-item:hover {
+  background-color: crimson;
+  cursor: pointer;
+}
