@@ -49,7 +49,7 @@ class TodoApp extends React.Component {
           <form onSubmit={this.addItem} className="todo__form">
             <input className="todo__form-input" ref={(a) => this._inputElement = a} placeholder="Enter your task">
             </input>
-            <button className="todo__form-button" type="submit">Add it up</button>
+            <button className="todo__form-button" type="submit">Add</button>
           </form>
         <TodoItems entries={this.state.items}
                    delete={this.deleteItem}/>

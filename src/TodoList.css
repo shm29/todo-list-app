@@ -1,8 +1,29 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  min-height: 400px;
+  background-color: #FFF;
+  padding: 15px;
+  display: flex;
+  border-radius: 5px;
+}
+.todo__form {
+  display: flex;
+  flex-direction: row;
+}
+
 .todo__form-input {
   padding: 10px;
   font-size: 16px;
-  border: 2px solid #fff;
-  width: 165px;
+  width: 250px;
+  height: 45px;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid #333;
+  border-radius: 2px;
+  background-color: #FFF;
+  text-align: center;
 }
 
 .todo__form-button{
@@ -24,6 +45,7 @@
 .todo__list {
   padding: 0;
   list-style: none;
+  justify-content: center;
 }
 
 .todo__list-item {
